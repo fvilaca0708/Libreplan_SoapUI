@@ -1,0 +1,71 @@
+2017-05-22 11:57:29,003 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\poste1\soapui-settings.xml]
+2017-05-22 11:57:38,947 INFO  [PluginManager] 0 plugins loaded in 1 ms
+2017-05-22 11:57:38,947 INFO  [DefaultSoapUICore] All plugins loaded
+2017-05-22 11:57:42,351 INFO  [WsdlProject] Loaded project from [file:/C:/JenkinsWorkspace/trunk/LibrePlan/Projet/Projet2WS-Libreplan-soapui-project.xml]
+2017-05-22 11:57:42,364 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Projet2WS-Libreplan]
+2017-05-22 11:57:42,376 INFO  [SoapUITestCaseRunner] Running Project [Projet2WS-Libreplan], runType = SEQUENTIAL
+2017-05-22 11:57:42,490 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GetACalendar TestCase]
+2017-05-22 11:57:42,499 INFO  [SoapUITestCaseRunner] running step [GET - GetACalendar]
+2017-05-22 11:57:43,620 INFO  [SoapUITestCaseRunner] Assertion [Contains Code] has status VALID
+2017-05-22 11:57:43,620 INFO  [SoapUITestCaseRunner] Assertion [Contains Name] has status VALID
+2017-05-22 11:57:43,620 INFO  [SoapUITestCaseRunner] Assertion [XPath Match Count] has status VALID
+2017-05-22 11:57:43,621 INFO  [SoapUITestCaseRunner] running step [ACalProperties]
+2017-05-22 11:57:43,699 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GetACalendar TestCase], time taken: 253ms, status: FINISHED
+2017-05-22 11:57:43,699 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GetAllCalendars TestCase]
+2017-05-22 11:57:43,700 INFO  [SoapUITestCaseRunner] running step [GET - GetAllCalendars]
+2017-05-22 11:57:44,125 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2017-05-22 11:57:44,125 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GetAllCalendars TestCase], time taken: 415ms, status: FINISHED
+2017-05-22 11:57:44,133 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GetAProject TestCase]
+2017-05-22 11:57:44,133 INFO  [SoapUITestCaseRunner] running step [GET - GetAProject]
+2017-05-22 11:57:47,526 INFO  [SoapUITestCaseRunner] Assertion [Contains Code] has status VALID
+2017-05-22 11:57:47,526 INFO  [SoapUITestCaseRunner] Assertion [XPath Match Count] has status VALID
+2017-05-22 11:57:47,526 INFO  [SoapUITestCaseRunner] Assertion [Contains Name] has status VALID
+2017-05-22 11:57:47,526 INFO  [SoapUITestCaseRunner] running step [AProjProperties]
+2017-05-22 11:57:47,527 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GetAProject TestCase], time taken: 3385ms, status: FINISHED
+2017-05-22 11:57:47,527 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GetAllProjects TestCase]
+2017-05-22 11:57:47,527 INFO  [SoapUITestCaseRunner] running step [GET - GetAllProjects]
+2017-05-22 11:57:47,696 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2017-05-22 11:57:47,696 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GetAllProjects TestCase], time taken: 155ms, status: FINISHED
+2017-05-22 11:57:47,697 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CreateAProject TestCase]
+2017-05-22 11:57:47,697 INFO  [SoapUITestCaseRunner] running step [POST - CreateAProject]
+2017-05-22 11:57:48,826 INFO  [SoapUITestCaseRunner] running step [GET - GetAllProjects Add]
+2017-05-22 11:57:48,914 INFO  [SoapUITestCaseRunner] Assertion [Contains code] has status VALID
+2017-05-22 11:57:48,914 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2017-05-22 11:57:48,915 INFO  [SoapUITestCaseRunner] running step [CreateProjectProperties]
+2017-05-22 11:57:48,915 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CreateAProject TestCase], time taken: 1179ms, status: FINISHED
+2017-05-22 11:57:48,916 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [DeleteAProject TestCase]
+2017-05-22 11:57:48,917 INFO  [SoapUITestCaseRunner] running step [POST - CreateAProject]
+2017-05-22 11:57:48,992 INFO  [SoapUITestCaseRunner] running step [GET - GetAllProjects Add]
+2017-05-22 11:57:49,205 INFO  [SoapUITestCaseRunner] Assertion [Contains Code] has status VALID
+2017-05-22 11:57:49,205 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2017-05-22 11:57:49,205 INFO  [SoapUITestCaseRunner] Assertion [Contains Name] has status VALID
+2017-05-22 11:57:49,205 INFO  [SoapUITestCaseRunner] running step [DELETE - DeleteAProject]
+2017-05-22 11:57:49,359 INFO  [SoapUITestCaseRunner] running step [GET - GetAllProjects Delete]
+2017-05-22 11:57:49,407 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2017-05-22 11:57:49,407 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2017-05-22 11:57:49,407 INFO  [SoapUITestCaseRunner] running step [DelProjectProperties]
+2017-05-22 11:57:49,408 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [DeleteAProject TestCase], time taken: 448ms, status: FINISHED
+2017-05-22 11:57:49,415 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GetAllResources TestCase]
+2017-05-22 11:57:49,415 INFO  [SoapUITestCaseRunner] running step [GET - GetAllResources]
+2017-05-22 11:57:49,467 INFO  [SoapUITestCaseRunner] Assertion [XPath Match Count] has status VALID
+2017-05-22 11:57:49,467 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GetAllResources TestCase], time taken: 32ms, status: FINISHED
+2017-05-22 11:57:49,468 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GetAResource TestCase]
+2017-05-22 11:57:49,468 INFO  [SoapUITestCaseRunner] running step [GET - GetAResource]
+2017-05-22 11:57:49,492 INFO  [SoapUITestCaseRunner] Assertion [Contains Code] has status VALID
+2017-05-22 11:57:49,492 INFO  [SoapUITestCaseRunner] Assertion [Contains first-name] has status VALID
+2017-05-22 11:57:49,492 INFO  [SoapUITestCaseRunner] Assertion [Contains Surname] has status VALID
+2017-05-22 11:57:49,492 INFO  [SoapUITestCaseRunner] Assertion [Contains Nif] has status VALID
+2017-05-22 11:57:49,492 INFO  [SoapUITestCaseRunner] Assertion [XPath Match Count] has status VALID
+2017-05-22 11:57:49,492 INFO  [SoapUITestCaseRunner] running step [AResProperties]
+2017-05-22 11:57:49,493 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GetAResource TestCase], time taken: 17ms, status: FINISHED
+2017-05-22 11:57:49,493 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CreateAResource TestCase]
+2017-05-22 11:57:49,493 INFO  [SoapUITestCaseRunner] running step [POST - CreateAResource]
+2017-05-22 11:57:49,550 INFO  [SoapUITestCaseRunner] running step [GET - GetAllResources Add]
+2017-05-22 11:57:49,614 INFO  [SoapUITestCaseRunner] Assertion [Contains First Name] has status VALID
+2017-05-22 11:57:49,615 INFO  [SoapUITestCaseRunner] Assertion [Contains Code] has status VALID
+2017-05-22 11:57:49,615 INFO  [SoapUITestCaseRunner] Assertion [Contains surname] has status VALID
+2017-05-22 11:57:49,615 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status VALID
+2017-05-22 11:57:49,615 INFO  [SoapUITestCaseRunner] Assertion [Contains nif] has status VALID
+2017-05-22 11:57:49,615 INFO  [SoapUITestCaseRunner] running step [CreateResProperties]
+2017-05-22 11:57:49,615 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CreateAResource TestCase], time taken: 102ms, status: FINISHED
+2017-05-22 11:57:49,616 INFO  [SoapUITestCaseRunner] Project [Projet2WS-Libreplan] finished with status [FINISHED] in 7202ms

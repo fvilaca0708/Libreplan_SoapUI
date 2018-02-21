@@ -1,0 +1,125 @@
+Status: FAILED
+Time Taken: 32
+Size: 2575
+Timestamp: Fri May 19 17:37:21 CEST 2017
+TestStep: GET - GetAllProjects
+
+----------------- Messages ------------------------------
+[XPath Match] XPathContains comparison failed for path [declare namespace ns1='http://rest.ws.libreplan.org';
+count(//ns1:order)], expecting [4], actual was [5]
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080
+Method: GET
+Password: wsreader
+Username: wsreader
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//orderelements
+
+---------------- Request ---------------------------
+Authorization: [Basic d3NyZWFkZXI6d3NyZWFkZXI=]
+Host: [localhost:28080]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET http://localhost:28080/libreplan//ws/rest//orderelements HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Basic d3NyZWFkZXI6d3NyZWFkZXI=
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:37:21 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [2575]
+Content-Type: [application/xml]
+Server: [Apache-Coyote/1.1]
+
+<order-list xmlns="http://rest.ws.libreplan.org">
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2018-11-10" init-date="2017-12-23" name="Test_Project" code="ORDER0006">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2017-05-25" init-date="2017-05-15" name="Projet1" code="ORDER0074">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2017-07-18" init-date="2017-05-01" name="Projet2" code="ORDER0075">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children>
+         <order-line name="Task1" code="ORDER0075-0001">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="80" resource-type="WORKER" code="ORDER0075-0001-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+         <order-line name="Task2" code="ORDER0075-0002">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="25" resource-type="WORKER" code="ORDER0075-0002-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+         <order-line name="task3" code="ORDER0075-0003">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="5" resource-type="WORKER" code="ORDER0075-0003-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+      </children>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2019-06-18" init-date="2017-05-31" name="Projet3" code="ORDER0076">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children>
+         <order-line name="Task1" code="ORDER0076-0001">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="100" resource-type="WORKER" code="ORDER0076-0001-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+      </children>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2017-06-25" init-date="2017-06-15" name="ProjetTest" code="ORDER0077">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+</order-list>

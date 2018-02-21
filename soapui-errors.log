@@ -1,0 +1,882 @@
+2017-05-19 17:24:13,257 ERROR [errorlog] java.lang.Exception: Response SLA in [GET - GetAllCalendars] failed;
+[Response did not meet SLA 384/200]
+Status: FAILED
+Time Taken: 384
+Size: 1176
+Timestamp: Fri May 19 17:24:10 CEST 2017
+TestStep: GET - GetAllCalendars
+
+----------------- Messages ------------------------------
+[Response SLA] Response did not meet SLA 384/200
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080/libreplan/
+Method: GET
+Password: wsreader
+Username: wsreader
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//calendars
+
+---------------- Request ---------------------------
+Authorization: [Basic d3NyZWFkZXI6d3NyZWFkZXI=]
+Host: [localhost:28080]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET http://localhost:28080/libreplan//ws/rest//calendars HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Basic d3NyZWFkZXI6d3NyZWFkZXI=
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:24:11 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1176]
+Content-Type: [application/xml]
+Server: [Apache-Coyote/1.1]
+
+<base-calendar-list xmlns="http://rest.ws.libreplan.org">
+   <base-calendar name="Calendar2" code="CALENDAR0002">
+      <calendar-exception-list/>
+      <calendar-data-list>
+         <calendar-data code="CALENDAR0002-0001">
+            <hours-per-day-list>
+               <hours-per-day hours="8" day="MONDAY"/>
+               <hours-per-day hours="8" day="TUESDAY"/>
+               <hours-per-day hours="8" day="WEDNESDAY"/>
+               <hours-per-day hours="8" day="THURSDAY"/>
+               <hours-per-day hours="8" day="FRIDAY"/>
+               <hours-per-day hours="0" day="SATURDAY"/>
+               <hours-per-day hours="0" day="SUNDAY"/>
+            </hours-per-day-list>
+         </calendar-data>
+      </calendar-data-list>
+   </base-calendar>
+   <base-calendar name="Default" code="CALENDAR0001">
+      <calendar-exception-list/>
+      <calendar-data-list>
+         <calendar-data code="44dec11c-ed88-4ca8-967a-2aa5f1ab53f6">
+            <hours-per-day-list>
+               <hours-per-day hours="8" day="MONDAY"/>
+               <hours-per-day hours="8" day="TUESDAY"/>
+               <hours-per-day hours="8" day="WEDNESDAY"/>
+               <hours-per-day hours="8" day="THURSDAY"/>
+               <hours-per-day hours="8" day="FRIDAY"/>
+               <hours-per-day hours="0" day="SATURDAY"/>
+               <hours-per-day hours="0" day="SUNDAY"/>
+            </hours-per-day-list>
+         </calendar-data>
+      </calendar-data-list>
+   </base-calendar>
+</base-calendar-list>
+Response SLA in [DELETE - DeleteAProject] failed;
+[Response did not meet SLA 441/200]
+Status: FAILED
+Time Taken: 441
+Size: 0
+Timestamp: Fri May 19 17:24:12 CEST 2017
+TestStep: DELETE - DeleteAProject
+
+----------------- Messages ------------------------------
+[Response SLA] Response did not meet SLA 441/200
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080
+Method: DELETE
+Password: wswriter
+Username: wswriter
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//orderelements/ORDER0007/
+
+---------------- Request ---------------------------
+Authorization: [Basic d3N3cml0ZXI6d3N3cml0ZXI=]
+Host: [localhost:28080]
+Content-Length: [0]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Content-Type: [application/json]
+
+DELETE http://localhost:28080/libreplan//ws/rest//orderelements/ORDER0007/ HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Basic d3N3cml0ZXI6d3N3cml0ZXI=
+Content-Length: 0
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:24:12 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [0]
+Content-Type: [text/xml]
+Server: [Apache-Coyote/1.1]
+
+java.lang.Exception: Response SLA in [GET - GetAllCalendars] failed;
+[Response did not meet SLA 384/200]
+Status: FAILED
+Time Taken: 384
+Size: 1176
+Timestamp: Fri May 19 17:24:10 CEST 2017
+TestStep: GET - GetAllCalendars
+
+----------------- Messages ------------------------------
+[Response SLA] Response did not meet SLA 384/200
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080/libreplan/
+Method: GET
+Password: wsreader
+Username: wsreader
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//calendars
+
+---------------- Request ---------------------------
+Authorization: [Basic d3NyZWFkZXI6d3NyZWFkZXI=]
+Host: [localhost:28080]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET http://localhost:28080/libreplan//ws/rest//calendars HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Basic d3NyZWFkZXI6d3NyZWFkZXI=
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:24:11 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1176]
+Content-Type: [application/xml]
+Server: [Apache-Coyote/1.1]
+
+<base-calendar-list xmlns="http://rest.ws.libreplan.org">
+   <base-calendar name="Calendar2" code="CALENDAR0002">
+      <calendar-exception-list/>
+      <calendar-data-list>
+         <calendar-data code="CALENDAR0002-0001">
+            <hours-per-day-list>
+               <hours-per-day hours="8" day="MONDAY"/>
+               <hours-per-day hours="8" day="TUESDAY"/>
+               <hours-per-day hours="8" day="WEDNESDAY"/>
+               <hours-per-day hours="8" day="THURSDAY"/>
+               <hours-per-day hours="8" day="FRIDAY"/>
+               <hours-per-day hours="0" day="SATURDAY"/>
+               <hours-per-day hours="0" day="SUNDAY"/>
+            </hours-per-day-list>
+         </calendar-data>
+      </calendar-data-list>
+   </base-calendar>
+   <base-calendar name="Default" code="CALENDAR0001">
+      <calendar-exception-list/>
+      <calendar-data-list>
+         <calendar-data code="44dec11c-ed88-4ca8-967a-2aa5f1ab53f6">
+            <hours-per-day-list>
+               <hours-per-day hours="8" day="MONDAY"/>
+               <hours-per-day hours="8" day="TUESDAY"/>
+               <hours-per-day hours="8" day="WEDNESDAY"/>
+               <hours-per-day hours="8" day="THURSDAY"/>
+               <hours-per-day hours="8" day="FRIDAY"/>
+               <hours-per-day hours="0" day="SATURDAY"/>
+               <hours-per-day hours="0" day="SUNDAY"/>
+            </hours-per-day-list>
+         </calendar-data>
+      </calendar-data-list>
+   </base-calendar>
+</base-calendar-list>
+Response SLA in [DELETE - DeleteAProject] failed;
+[Response did not meet SLA 441/200]
+Status: FAILED
+Time Taken: 441
+Size: 0
+Timestamp: Fri May 19 17:24:12 CEST 2017
+TestStep: DELETE - DeleteAProject
+
+----------------- Messages ------------------------------
+[Response SLA] Response did not meet SLA 441/200
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080
+Method: DELETE
+Password: wswriter
+Username: wswriter
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//orderelements/ORDER0007/
+
+---------------- Request ---------------------------
+Authorization: [Basic d3N3cml0ZXI6d3N3cml0ZXI=]
+Host: [localhost:28080]
+Content-Length: [0]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Content-Type: [application/json]
+
+DELETE http://localhost:28080/libreplan//ws/rest//orderelements/ORDER0007/ HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Basic d3N3cml0ZXI6d3N3cml0ZXI=
+Content-Length: 0
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:24:12 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [0]
+Content-Type: [text/xml]
+Server: [Apache-Coyote/1.1]
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:512)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:428)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:118)
+2017-05-19 17:37:22,749 ERROR [errorlog] java.lang.Exception: XPath Match in [GET - GetAllProjects] failed;
+[XPathContains comparison failed for path [declare namespace ns1='http://rest.ws.libreplan.org';
+count(//ns1:order)], expecting [4], actual was [5]]
+Status: FAILED
+Time Taken: 32
+Size: 2575
+Timestamp: Fri May 19 17:37:21 CEST 2017
+TestStep: GET - GetAllProjects
+
+----------------- Messages ------------------------------
+[XPath Match] XPathContains comparison failed for path [declare namespace ns1='http://rest.ws.libreplan.org';
+count(//ns1:order)], expecting [4], actual was [5]
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080
+Method: GET
+Password: wsreader
+Username: wsreader
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//orderelements
+
+---------------- Request ---------------------------
+Authorization: [Basic d3NyZWFkZXI6d3NyZWFkZXI=]
+Host: [localhost:28080]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET http://localhost:28080/libreplan//ws/rest//orderelements HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Basic d3NyZWFkZXI6d3NyZWFkZXI=
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:37:21 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [2575]
+Content-Type: [application/xml]
+Server: [Apache-Coyote/1.1]
+
+<order-list xmlns="http://rest.ws.libreplan.org">
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2018-11-10" init-date="2017-12-23" name="Test_Project" code="ORDER0006">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2017-05-25" init-date="2017-05-15" name="Projet1" code="ORDER0074">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2017-07-18" init-date="2017-05-01" name="Projet2" code="ORDER0075">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children>
+         <order-line name="Task1" code="ORDER0075-0001">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="80" resource-type="WORKER" code="ORDER0075-0001-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+         <order-line name="Task2" code="ORDER0075-0002">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="25" resource-type="WORKER" code="ORDER0075-0002-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+         <order-line name="task3" code="ORDER0075-0003">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="5" resource-type="WORKER" code="ORDER0075-0003-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+      </children>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2019-06-18" init-date="2017-05-31" name="Projet3" code="ORDER0076">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children>
+         <order-line name="Task1" code="ORDER0076-0001">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="100" resource-type="WORKER" code="ORDER0076-0001-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+      </children>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2017-06-25" init-date="2017-06-15" name="ProjetTest" code="ORDER0077">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+</order-list>
+XPath Match Count in [GET - GetAllResources] failed;
+[XPathContains comparison failed for path [declare namespace ns1='http://rest.ws.libreplan.org';
+count(//ns1:worker)], expecting [7], actual was [8]]
+Status: FAILED
+Time Taken: 52
+Size: 5307
+Timestamp: Fri May 19 17:37:22 CEST 2017
+TestStep: GET - GetAllResources
+
+----------------- Messages ------------------------------
+[XPath Match Count] XPathContains comparison failed for path [declare namespace ns1='http://rest.ws.libreplan.org';
+count(//ns1:worker)], expecting [7], actual was [8]
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080/libreplan/
+Method: GET
+Password: wsreader
+Username: wsreader
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//resources
+
+---------------- Request ---------------------------
+Authorization: [Basic d3NyZWFkZXI6d3NyZWFkZXI=]
+Host: [localhost:28080]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET http://localhost:28080/libreplan//ws/rest//resources HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Basic d3NyZWFkZXI6d3NyZWFkZXI=
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:37:22 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [5307]
+Content-Type: [application/xml]
+Server: [Apache-Coyote/1.1]
+
+<resource-list xmlns="http://rest.ws.libreplan.org">
+   <worker nif="201" surname="John" first-name="Worker2" code="WORKER0003">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0004">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0004-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0004-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="203" surname="Roger" first-name="Worker3" code="WORKER0004">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0005">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0005-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0005-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="204" surname="Jason" first-name="Worker4" code="WORKER0005">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0006">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0006-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0006-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="205" surname="Gillian" first-name="Worker1" code="WORKER0006">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0007">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0007-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0007-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="206" surname="Joan" first-name="Worker6" code="WORKER0007">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0008">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0008-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0008-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="200" surname="Morris" first-name="Worker1" code="WORKER0001">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0001">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0001-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0001-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="209" surname="Primo" first-name="Worker10" code="WORKER0008">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0009">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0009-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0009-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="mpo" surname="Polo" first-name="Marco" code="WORKER0050">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0020">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0020-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-19T00:00:00+02:00" code="RESOURCE_CALENDAR0020-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <machine description="Normal_machine" name="Machine1" code="MACHINE0001">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0002">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0002-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0002-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </machine>
+</resource-list>
+
+java.lang.Exception: XPath Match in [GET - GetAllProjects] failed;
+[XPathContains comparison failed for path [declare namespace ns1='http://rest.ws.libreplan.org';
+count(//ns1:order)], expecting [4], actual was [5]]
+Status: FAILED
+Time Taken: 32
+Size: 2575
+Timestamp: Fri May 19 17:37:21 CEST 2017
+TestStep: GET - GetAllProjects
+
+----------------- Messages ------------------------------
+[XPath Match] XPathContains comparison failed for path [declare namespace ns1='http://rest.ws.libreplan.org';
+count(//ns1:order)], expecting [4], actual was [5]
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080
+Method: GET
+Password: wsreader
+Username: wsreader
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//orderelements
+
+---------------- Request ---------------------------
+Authorization: [Basic d3NyZWFkZXI6d3NyZWFkZXI=]
+Host: [localhost:28080]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET http://localhost:28080/libreplan//ws/rest//orderelements HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Basic d3NyZWFkZXI6d3NyZWFkZXI=
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:37:21 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [2575]
+Content-Type: [application/xml]
+Server: [Apache-Coyote/1.1]
+
+<order-list xmlns="http://rest.ws.libreplan.org">
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2018-11-10" init-date="2017-12-23" name="Test_Project" code="ORDER0006">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2017-05-25" init-date="2017-05-15" name="Projet1" code="ORDER0074">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2017-07-18" init-date="2017-05-01" name="Projet2" code="ORDER0075">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children>
+         <order-line name="Task1" code="ORDER0075-0001">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="80" resource-type="WORKER" code="ORDER0075-0001-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+         <order-line name="Task2" code="ORDER0075-0002">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="25" resource-type="WORKER" code="ORDER0075-0002-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+         <order-line name="task3" code="ORDER0075-0003">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="5" resource-type="WORKER" code="ORDER0075-0003-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+      </children>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2019-06-18" init-date="2017-05-31" name="Projet3" code="ORDER0076">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children>
+         <order-line name="Task1" code="ORDER0076-0001">
+            <labels/>
+            <material-assignments/>
+            <advance-measurements/>
+            <criterion-requirements/>
+            <hours-groups>
+               <hours-group working-hours="100" resource-type="WORKER" code="ORDER0076-0001-0001">
+                  <criterion-requirements/>
+               </hours-group>
+            </hours-groups>
+         </order-line>
+      </children>
+   </order>
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" deadline="2017-06-25" init-date="2017-06-15" name="ProjetTest" code="ORDER0077">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+</order-list>
+XPath Match Count in [GET - GetAllResources] failed;
+[XPathContains comparison failed for path [declare namespace ns1='http://rest.ws.libreplan.org';
+count(//ns1:worker)], expecting [7], actual was [8]]
+Status: FAILED
+Time Taken: 52
+Size: 5307
+Timestamp: Fri May 19 17:37:22 CEST 2017
+TestStep: GET - GetAllResources
+
+----------------- Messages ------------------------------
+[XPath Match Count] XPathContains comparison failed for path [declare namespace ns1='http://rest.ws.libreplan.org';
+count(//ns1:worker)], expecting [7], actual was [8]
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080/libreplan/
+Method: GET
+Password: wsreader
+Username: wsreader
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//resources
+
+---------------- Request ---------------------------
+Authorization: [Basic d3NyZWFkZXI6d3NyZWFkZXI=]
+Host: [localhost:28080]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET http://localhost:28080/libreplan//ws/rest//resources HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Basic d3NyZWFkZXI6d3NyZWFkZXI=
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:37:22 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [5307]
+Content-Type: [application/xml]
+Server: [Apache-Coyote/1.1]
+
+<resource-list xmlns="http://rest.ws.libreplan.org">
+   <worker nif="201" surname="John" first-name="Worker2" code="WORKER0003">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0004">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0004-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0004-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="203" surname="Roger" first-name="Worker3" code="WORKER0004">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0005">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0005-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0005-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="204" surname="Jason" first-name="Worker4" code="WORKER0005">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0006">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0006-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0006-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="205" surname="Gillian" first-name="Worker1" code="WORKER0006">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0007">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0007-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0007-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="206" surname="Joan" first-name="Worker6" code="WORKER0007">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0008">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0008-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0008-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="200" surname="Morris" first-name="Worker1" code="WORKER0001">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0001">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0001-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0001-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="209" surname="Primo" first-name="Worker10" code="WORKER0008">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0009">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0009-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0009-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <worker nif="mpo" surname="Polo" first-name="Marco" code="WORKER0050">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0020">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0020-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-19T00:00:00+02:00" code="RESOURCE_CALENDAR0020-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </worker>
+   <machine description="Normal_machine" name="Machine1" code="MACHINE0001">
+      <calendar capacity="1" parent="CALENDAR0001" code="RESOURCE_CALENDAR0002">
+         <calendar-exception-list/>
+         <calendar-data-list>
+            <calendar-data parent-calendar="CALENDAR0001" code="RESOURCE_CALENDAR0002-0001">
+               <hours-per-day-list/>
+            </calendar-data>
+         </calendar-data-list>
+         <calendar-availability-list>
+            <calendar-availability startDate="2017-05-18T00:00:00+02:00" code="RESOURCE_CALENDAR0002-0002"/>
+         </calendar-availability-list>
+      </calendar>
+      <criterion-satisfaction-list/>
+      <resources-cost-category-assignment-list/>
+   </machine>
+</resource-list>
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:512)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:428)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:118)

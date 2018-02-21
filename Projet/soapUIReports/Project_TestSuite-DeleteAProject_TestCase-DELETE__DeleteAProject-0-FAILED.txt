@@ -1,0 +1,44 @@
+Status: FAILED
+Time Taken: 441
+Size: 0
+Timestamp: Fri May 19 17:24:12 CEST 2017
+TestStep: DELETE - DeleteAProject
+
+----------------- Messages ------------------------------
+[Response SLA] Response did not meet SLA 441/200
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080
+Method: DELETE
+Password: wswriter
+Username: wswriter
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//orderelements/ORDER0007/
+
+---------------- Request ---------------------------
+Authorization: [Basic d3N3cml0ZXI6d3N3cml0ZXI=]
+Host: [localhost:28080]
+Content-Length: [0]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Content-Type: [application/json]
+
+DELETE http://localhost:28080/libreplan//ws/rest//orderelements/ORDER0007/ HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Basic d3N3cml0ZXI6d3N3cml0ZXI=
+Content-Length: 0
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:24:12 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [0]
+Content-Type: [text/xml]
+Server: [Apache-Coyote/1.1]

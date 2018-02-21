@@ -1,0 +1,75 @@
+Status: FAILED
+Time Taken: 384
+Size: 1176
+Timestamp: Fri May 19 17:24:10 CEST 2017
+TestStep: GET - GetAllCalendars
+
+----------------- Messages ------------------------------
+[Response SLA] Response did not meet SLA 384/200
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Domain: http://localhost:28080/libreplan/
+Method: GET
+Password: wsreader
+Username: wsreader
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:28080
+URL: http://localhost:28080/libreplan//ws/rest//calendars
+
+---------------- Request ---------------------------
+Authorization: [Basic d3NyZWFkZXI6d3NyZWFkZXI=]
+Host: [localhost:28080]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET http://localhost:28080/libreplan//ws/rest//calendars HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Basic d3NyZWFkZXI6d3NyZWFkZXI=
+Host: localhost:28080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Fri, 19 May 2017 15:24:11 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1176]
+Content-Type: [application/xml]
+Server: [Apache-Coyote/1.1]
+
+<base-calendar-list xmlns="http://rest.ws.libreplan.org">
+   <base-calendar name="Calendar2" code="CALENDAR0002">
+      <calendar-exception-list/>
+      <calendar-data-list>
+         <calendar-data code="CALENDAR0002-0001">
+            <hours-per-day-list>
+               <hours-per-day hours="8" day="MONDAY"/>
+               <hours-per-day hours="8" day="TUESDAY"/>
+               <hours-per-day hours="8" day="WEDNESDAY"/>
+               <hours-per-day hours="8" day="THURSDAY"/>
+               <hours-per-day hours="8" day="FRIDAY"/>
+               <hours-per-day hours="0" day="SATURDAY"/>
+               <hours-per-day hours="0" day="SUNDAY"/>
+            </hours-per-day-list>
+         </calendar-data>
+      </calendar-data-list>
+   </base-calendar>
+   <base-calendar name="Default" code="CALENDAR0001">
+      <calendar-exception-list/>
+      <calendar-data-list>
+         <calendar-data code="44dec11c-ed88-4ca8-967a-2aa5f1ab53f6">
+            <hours-per-day-list>
+               <hours-per-day hours="8" day="MONDAY"/>
+               <hours-per-day hours="8" day="TUESDAY"/>
+               <hours-per-day hours="8" day="WEDNESDAY"/>
+               <hours-per-day hours="8" day="THURSDAY"/>
+               <hours-per-day hours="8" day="FRIDAY"/>
+               <hours-per-day hours="0" day="SATURDAY"/>
+               <hours-per-day hours="0" day="SUNDAY"/>
+            </hours-per-day-list>
+         </calendar-data>
+      </calendar-data-list>
+   </base-calendar>
+</base-calendar-list>
