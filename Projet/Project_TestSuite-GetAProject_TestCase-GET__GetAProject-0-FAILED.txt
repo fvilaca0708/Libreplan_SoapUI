@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Thu Feb 22 11:42:43 CET 2018
+TestStep: GET - GetAProject
+
+----------------- Messages ------------------------------
+org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:28080 refused
+
+- missing response / garbage collected -
