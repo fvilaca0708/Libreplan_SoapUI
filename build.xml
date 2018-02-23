@@ -1,15 +1,15 @@
 <project name="soapUI Build" default="testreport" basedir=".">
 <target name="soapui">
 <exec dir="." executable="C:\Program Files\SmartBear\SoapUI-5.3.0\bin\testrunner.bat">
-<arg line="-j -f 'C:\Users\Formation\Desktop\Slave1\workspace\Libreplan\test SOAPUI\Projet\soapUIReports' -r 'C:\Users\Formation\Desktop\Slave1\workspace\Libreplan\test SOAPUI\Projet\Projet2WS-Libreplan-soapui-project.xml'"/>
+<arg line="-j -f 'C:\Program Files (x86)\Jenkins\jobs\LibrePlan\jobs\SoapUI\workspace\Projet\soapUIReports' -r 'C:\Program Files (x86)\Jenkins\jobs\LibrePlan\jobs\SoapUI\workspace\Projet\Projet2WS-Libreplan-soapui-project.xml'"/>
 </exec>
 </target>
 <target name="testreport" depends="soapui">
-<junitreport todir="C:\Users\Formation\Desktop\Slave1\workspace\Libreplan\test SOAPUI\Projet\soapUIReports">
-<fileset dir="C:\Users\Formation\Desktop\Slave1\workspace\Libreplan\test SOAPUI\Projet\soapUIReports">
+<junitreport todir="C:\Program Files (x86)\Jenkins\jobs\LibrePlan\jobs\SoapUI\workspace\Projet\soapUIReports">
+<fileset dir="C:\Program Files (x86)\Jenkins\jobs\LibrePlan\jobs\SoapUI\workspace\Projet\soapUIReports">
 	<include name="TEST-*.xml"/>
 	</fileset>
-	<report todir="C:\Users\Formation\Desktop\Slave1\workspace\Libreplan\test SOAPUI\Projet\rapportsHTML"
+	<report todir="C:\Program Files (x86)\Jenkins\jobs\LibrePlan\jobs\SoapUI\workspace\Projet\rapportsHTML"
 		styledir="C:\FORMATION\apache-ant-1.9.10\etc"
 		format="noframes">
 		</report>
